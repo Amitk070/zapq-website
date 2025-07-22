@@ -80,7 +80,7 @@ const DemoScreenshots: React.FC = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <a 
-            href="https://zapq.dev/code" 
+            href="https://code.zapq.dev/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
