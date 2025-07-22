@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: './', // ✅ forces relative paths in index.html
+  base: '/code/', // ✅ required for Vercel subpath deployment
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react']
