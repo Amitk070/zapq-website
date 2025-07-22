@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
 
           <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="https://zapq.dev/code" 
+              href="https://code.zapq.dev" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
