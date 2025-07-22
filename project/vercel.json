@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rewrites": [
+"rewrites": [
     {
-      "source": "/code",
-      "destination": "/code/"
-    },
-    {
-      "source": "/code/(.*)",
-      "destination": "/code/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
