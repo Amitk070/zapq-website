@@ -2,13 +2,13 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/code/', // ✅ required for Vercel subpath deployment
+  base: '/code/', // ✅ this is the KEY
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react']
-  },
   build: {
     outDir: 'dist',
     emptyOutDir: true
+  },
+  optimizeDeps: {
+    exclude: ['lucide-react']
   }
 });
