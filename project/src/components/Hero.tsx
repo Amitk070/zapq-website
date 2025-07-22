@@ -62,13 +62,13 @@ const Hero: React.FC = () => {
             </a>
             
             <a 
-              href="https://zapq.dev/code" 
+              href="https://www.youtube.com/watch?v=o5g_wPnN3Lc" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group inline-flex items-center px-8 py-4 text-lg font-semibold text-indigo-600 dark:text-indigo-400 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl border border-gray-200 dark:border-gray-700"
             >
               <Play className="mr-2 h-5 w-5" />
-              Try the Demo
+              Watch Demo
             </a>
           </div>
 
