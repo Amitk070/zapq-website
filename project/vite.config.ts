@@ -1,15 +1,14 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: './', // ✅ ensures correct relative paths for deployed assets
+  base: './', // ✅ forces relative paths in index.html
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react']
   },
   build: {
-    outDir: 'dist', // ✅ matches Vercel's outputDirectory
+    outDir: 'dist',
     emptyOutDir: true
   }
 });
