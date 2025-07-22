@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/code/', // ✅ this is the KEY
+  base: './', // ✅ this is the KEY
   plugins: [react()],
   build: {
     outDir: 'dist',
